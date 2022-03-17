@@ -1,2 +1,2 @@
-# disgusting-world
+# Disgusting World
 Disgusting World website
