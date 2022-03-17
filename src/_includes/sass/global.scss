@@ -1,0 +1,68 @@
+$primary-color: rgb(0, 0, 0);
+$secondary-color: rgb(0, 0, 0);
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $primary-color;
+}
+
+h1, h2, h3, button, p, a, span {
+    font-family: 'Roboto', Fallback, sans-serif;
+    color: white;
+    letter-spacing: 0.001em;
+    line-height: 1em;
+}
+
+.hidden {
+    display: none;
+}
+
+.not-visible {
+    visibility: hidden;
+}
+
+footer {
+    opacity: 50%;
+    font-size: 12px;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.transition-1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color: $secondary-color;
+    opacity: 0%;
+    pointer-events: none;
+    transition: 0.5s ease-out;
+}
+
+.transition-1.is-active {
+    opacity: 100%;
+    pointer-events: all;
+}
+
+@keyframes blur {
+    0% {
+        filter: blur(0px);
+    }
+
+    100% {
+        filter: blur(5px);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}

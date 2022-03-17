@@ -1,0 +1,48 @@
+{
+  "name": "disgusting-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigcontreras/disgusting-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/craigcontreras/disgusting-world/issues"
+  },
+  "homepage": "https://github.com/craigcontreras/disgusting-world#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@lottiefiles/jlottie": "^1.2.1",
+    "babel": "^6.23.0",
+    "babelify": "^10.0.0",
+    "browser-pack-flat": "^3.4.2",
+    "browserify": "^17.0.0",
+    "bundle-collapser": "^1.4.0",
+    "common-shakeify": "^0.6.2",
+    "ejs": "^3.1.6",
+    "gulp": "^4.0.2",
+    "gulp-buffer": "^0.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-tap": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "lottie-web": "^5.9.1",
+    "luxon": "^2.3.1",
+    "sass": "^1.49.9",
+    "uglifyify": "^5.0.2"
+  }
+}
